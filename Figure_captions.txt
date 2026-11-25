@@ -1,0 +1,18 @@
+Figure 1. Published sector indicators of GenAI deployment and governance. Data from Cornerstone Advisors [8] and Wipfli [9]; chart drawn by the authors. Wipfli values are from the 2026 edition of its survey; a 2027 edition was released in November 2026.
+
+Figure 2. Task-governance typology implied by the model, with illustrative credit-union operations tasks.
+
+Figure 3. Break-even cost of an undetected error as a function of detection probability (reference case). Shaded bands show published detection ranges; dotted lines show statutory reference points.
+
+Figure 4. Distribution of the break-even cost of an undetected error by detection regime and unaided error rate (boxes: interquartile range; whiskers: 5th to 95th percentile; dotted lines: USD 100, 1,000 and 10,000).
+
+Figure 5. Lowest attainable residual error rate as a function of minutes saved and reinvested in checking, compared with unaided human error rates.
+
+Figure 6. Optimal policy by verifiability and consequentiality at the reference case. Shaded bands mark the checking speeds implied by Kim et al. [32] and Irons et al. [43]; dotted lines mark USD 100, 1,000 and 10,000.
+
+Figure 7. Rank correlation of sampled inputs with the break-even cost (regime A, unaided error 0.05).
+
+Figure 8. Optimal policy with detection capped at 0.81 (Equation 11), at the reference case. Shading and reference lines as in Figure 6.
+
+Figure 9. One-off cost per member of measuring the model's inputs for four task classes, by asset tier, with and without pooling of the assistant error rate across 20 credit unions.
+

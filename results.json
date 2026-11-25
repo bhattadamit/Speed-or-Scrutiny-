@@ -1,0 +1,399 @@
+{
+ "seed": 20261116,
+ "N": 200000,
+ "w_per_min": {
+  "Tellers": 0.4911904761904762,
+  "Loan interviewers and clerks": 0.5707142857142856,
+  "Loan officers": 0.8707142857142858
+ },
+ "kappa_implied": [
+  0.274,
+  0.19
+ ],
+ "d_inf": {
+  "e=0.17": {
+   "e_h=0.05": 0.706,
+   "e_h=0.1": 0.412,
+   "e_h=0.155": 0.088
+  },
+  "e=0.33": {
+   "e_h=0.05": 0.848,
+   "e_h=0.1": 0.697,
+   "e_h=0.155": 0.53
+  }
+ },
+ "monte_carlo": {
+  "A|e_h=0.05": {
+   "share_no_worse_than_human": 0.0,
+   "Tellers": {
+    "p5": 11.07,
+    "median": 23.27,
+    "p95": 46.86,
+    "P_ENB_pos": {
+     "EFTA minimum": 0.0,
+     "EFTA maximum": 0.0,
+     "ECOA punitive cap": 0.0
+    }
+   },
+   "Loan interviewers and clerks": {
+    "p5": 12.86,
+    "median": 27.04,
+    "p95": 54.44,
+    "P_ENB_pos": {
+     "EFTA minimum": 0.0,
+     "EFTA maximum": 0.0,
+     "ECOA punitive cap": 0.0
+    }
+   },
+   "Loan officers": {
+    "p5": 19.62,
+    "median": 41.25,
+    "p95": 83.06,
+    "P_ENB_pos": {
+     "EFTA minimum": 0.0136,
+     "EFTA maximum": 0.0,
+     "ECOA punitive cap": 0.0
+    }
+   }
+  },
+  "A|e_h=0.1": {
+   "share_no_worse_than_human": 0.0,
+   "Tellers": {
+    "p5": 15.57,
+    "median": 36.86,
+    "p95": 108.0,
+    "P_ENB_pos": {
+     "EFTA minimum": 0.064,
+     "EFTA maximum": 0.0,
+     "ECOA punitive cap": 0.0
+    }
+   },
+   "Loan interviewers and clerks": {
+    "p5": 18.09,
+    "median": 42.82,
+    "p95": 125.49,
+    "P_ENB_pos": {
+     "EFTA minimum": 0.0977,
+     "EFTA maximum": 0.0,
+     "ECOA punitive cap": 0.0
+    }
+   },
+   "Loan officers": {
+    "p5": 27.6,
+    "median": 65.33,
+    "p95": 191.45,
+    "P_ENB_pos": {
+     "EFTA minimum": 0.2502,
+     "EFTA maximum": 0.0,
+     "ECOA punitive cap": 0.0
+    }
+   }
+  },
+  "A|e_h=0.155": {
+   "share_no_worse_than_human": 0.2239,
+   "Tellers": {
+    "p5": 25.38,
+    "median": 69.78,
+    "p95": 702.96,
+    "P_ENB_pos": {
+     "EFTA minimum": 0.4958,
+     "EFTA maximum": 0.2512,
+     "ECOA punitive cap": 0.2268
+    }
+   },
+   "Loan interviewers and clerks": {
+    "p5": 29.49,
+    "median": 81.07,
+    "p95": 816.77,
+    "P_ENB_pos": {
+     "EFTA minimum": 0.5398,
+     "EFTA maximum": 0.2557,
+     "ECOA punitive cap": 0.2273
+    }
+   },
+   "Loan officers": {
+    "p5": 44.99,
+    "median": 123.69,
+    "p95": 1246.1,
+    "P_ENB_pos": {
+     "EFTA minimum": 0.6993,
+     "EFTA maximum": 0.2724,
+     "ECOA punitive cap": 0.229
+    }
+   }
+  },
+  "B|e_h=0.05": {
+   "share_no_worse_than_human": 0.0,
+   "Tellers": {
+    "p5": 35.77,
+    "median": 89.98,
+    "p95": 357.58,
+    "P_ENB_pos": {
+     "EFTA minimum": 0.4365,
+     "EFTA maximum": 0.0068,
+     "ECOA punitive cap": 0.0001
+    }
+   },
+   "Loan interviewers and clerks": {
+    "p5": 41.56,
+    "median": 104.55,
+    "p95": 415.48,
+    "P_ENB_pos": {
+     "EFTA minimum": 0.5277,
+     "EFTA maximum": 0.009,
+     "ECOA punitive cap": 0.0001
+    }
+   },
+   "Loan officers": {
+    "p5": 63.4,
+    "median": 159.51,
+    "p95": 633.88,
+    "P_ENB_pos": {
+     "EFTA minimum": 0.7828,
+     "EFTA maximum": 0.0206,
+     "ECOA punitive cap": 0.0002
+    }
+   }
+  },
+  "B|e_h=0.1": {
+   "share_no_worse_than_human": 0.7514,
+   "Tellers": {
+    "p5": 105.24,
+    "median": 354.73,
+    "p95": 4228.23,
+    "P_ENB_pos": {
+     "EFTA minimum": 0.9897,
+     "EFTA maximum": 0.8013,
+     "ECOA punitive cap": 0.7569
+    }
+   },
+   "Loan interviewers and clerks": {
+    "p5": 122.28,
+    "median": 412.16,
+    "p95": 4912.78,
+    "P_ENB_pos": {
+     "EFTA minimum": 0.9945,
+     "EFTA maximum": 0.8087,
+     "ECOA punitive cap": 0.7578
+    }
+   },
+   "Loan officers": {
+    "p5": 186.55,
+    "median": 628.82,
+    "p95": 7495.22,
+    "P_ENB_pos": {
+     "EFTA minimum": 0.9998,
+     "EFTA maximum": 0.8356,
+     "ECOA punitive cap": 0.7608
+    }
+   }
+  },
+  "B|e_h=0.155": {
+   "share_no_worse_than_human": 1.0,
+   "Tellers": {
+    "p5": null,
+    "median": null,
+    "p95": null,
+    "P_ENB_pos": {
+     "EFTA minimum": 1.0,
+     "EFTA maximum": 1.0,
+     "ECOA punitive cap": 1.0
+    }
+   },
+   "Loan interviewers and clerks": {
+    "p5": null,
+    "median": null,
+    "p95": null,
+    "P_ENB_pos": {
+     "EFTA minimum": 1.0,
+     "EFTA maximum": 1.0,
+     "ECOA punitive cap": 1.0
+    }
+   },
+   "Loan officers": {
+    "p5": null,
+    "median": null,
+    "p95": null,
+    "P_ENB_pos": {
+     "EFTA minimum": 1.0,
+     "EFTA maximum": 1.0,
+     "ECOA punitive cap": 1.0
+    }
+   }
+  }
+ },
+ "sensitivity_spearman_A_eh0.05": {
+  "Time saved share (s)": 0.717,
+  "Unaided task time (T)": 0.256,
+  "Assistant error rate (e)": -0.596,
+  "Detection probability (d)": 0.17
+ },
+ "residual_floor": [
+  {
+   "e": 0.17,
+   "sT": 3.25,
+   "kappa": 0.19,
+   "r_floor": 0.0718,
+   "d_max": 0.578
+  },
+  {
+   "e": 0.17,
+   "sT": 3.25,
+   "kappa": 0.274,
+   "r_floor": 0.0546,
+   "d_max": 0.679
+  },
+  {
+   "e": 0.17,
+   "sT": 6.25,
+   "kappa": 0.19,
+   "r_floor": 0.0407,
+   "d_max": 0.761
+  },
+  {
+   "e": 0.17,
+   "sT": 6.25,
+   "kappa": 0.274,
+   "r_floor": 0.024,
+   "d_max": 0.859
+  },
+  {
+   "e": 0.17,
+   "sT": 10.0,
+   "kappa": 0.19,
+   "r_floor": 0.02,
+   "d_max": 0.883
+  },
+  {
+   "e": 0.17,
+   "sT": 10.0,
+   "kappa": 0.274,
+   "r_floor": 0.0086,
+   "d_max": 0.949
+  },
+  {
+   "e": 0.33,
+   "sT": 3.25,
+   "kappa": 0.19,
+   "r_floor": 0.1394,
+   "d_max": 0.578
+  },
+  {
+   "e": 0.33,
+   "sT": 3.25,
+   "kappa": 0.274,
+   "r_floor": 0.106,
+   "d_max": 0.679
+  },
+  {
+   "e": 0.33,
+   "sT": 6.25,
+   "kappa": 0.19,
+   "r_floor": 0.0789,
+   "d_max": 0.761
+  },
+  {
+   "e": 0.33,
+   "sT": 6.25,
+   "kappa": 0.274,
+   "r_floor": 0.0467,
+   "d_max": 0.859
+  },
+  {
+   "e": 0.33,
+   "sT": 10.0,
+   "kappa": 0.19,
+   "r_floor": 0.0388,
+   "d_max": 0.883
+  },
+  {
+   "e": 0.33,
+   "sT": 10.0,
+   "kappa": 0.274,
+   "r_floor": 0.0167,
+   "d_max": 0.949
+  }
+ ],
+ "kappa_critical": {
+  "e=0.17|e_h=0.05": 0.156,
+  "e=0.17|e_h=0.1": 0.046,
+  "e=0.17|e_h=0.155": -0.025,
+  "e=0.33|e_h=0.05": 0.263,
+  "e=0.33|e_h=0.1": 0.152,
+  "e=0.33|e_h=0.155": 0.082
+ },
+ "miscalibration": {
+  "w_over_kappa_usd": 2.46,
+  "excess_cost": {
+   "0.25": {
+    "units": 1.614,
+    "usd": 3.98
+   },
+   "0.5": {
+    "units": 0.307,
+    "usd": 0.76
+   },
+   "1.0": {
+    "units": 0.0,
+    "usd": 0.0
+   },
+   "2.0": {
+    "units": 0.193,
+    "usd": 0.48
+   },
+   "4.0": {
+    "units": 0.636,
+    "usd": 1.57
+   }
+  }
+ },
+ "reference_case_Lstar": {
+  "e=0.17|e_h=0.05|d=0.218": 43.01,
+  "e=0.17|e_h=0.05|d=0.318": 54.09,
+  "e=0.17|e_h=0.05|d=0.60": 198.16,
+  "e=0.17|e_h=0.05|d=0.706": null,
+  "e=0.17|e_h=0.1|d=0.218": 108.29,
+  "e=0.17|e_h=0.1|d=0.318": 223.77,
+  "e=0.17|e_h=0.1|d=0.60": null,
+  "e=0.17|e_h=0.1|d=0.706": null,
+  "e=0.17|e_h=0.155|d=0.218": null,
+  "e=0.17|e_h=0.155|d=0.318": null,
+  "e=0.17|e_h=0.155|d=0.60": null,
+  "e=0.17|e_h=0.155|d=0.706": null,
+  "e=0.33|e_h=0.05|d=0.218": 17.14,
+  "e=0.33|e_h=0.05|d=0.318": 20.38,
+  "e=0.33|e_h=0.05|d=0.60": 43.5,
+  "e=0.33|e_h=0.05|d=0.706": 75.86,
+  "e=0.33|e_h=0.1|d=0.218": 22.57,
+  "e=0.33|e_h=0.1|d=0.318": 28.52,
+  "e=0.33|e_h=0.1|d=0.60": 111.47,
+  "e=0.33|e_h=0.1|d=0.706": null,
+  "e=0.33|e_h=0.155|d=0.218": 34.61,
+  "e=0.33|e_h=0.155|d=0.318": 50.91,
+  "e=0.33|e_h=0.155|d=0.60": null,
+  "e=0.33|e_h=0.155|d=0.706": null
+ },
+ "reference_saving_usd": 3.57,
+ "regime_area_shares": {
+  "e=0.17|e_h=0.05": {
+   "use_unverified": 0.308,
+   "verify": 0.314,
+   "withhold": 0.379
+  },
+  "e=0.17|e_h=0.155": {
+   "use_unverified": 0.364,
+   "verify": 0.636,
+   "withhold": 0.0
+  },
+  "e=0.33|e_h=0.05": {
+   "use_unverified": 0.231,
+   "verify": 0.257,
+   "withhold": 0.511
+  },
+  "e=0.33|e_h=0.155": {
+   "use_unverified": 0.263,
+   "verify": 0.438,
+   "withhold": 0.299
+  }
+ }
+}

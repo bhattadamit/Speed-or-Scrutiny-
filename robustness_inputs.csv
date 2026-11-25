@@ -1,0 +1,25 @@
+input,value,unit,source,used_for
+Irons et al. share of incorrect answers (q),0.30,proportion,"Irons et al. (2026), arXiv:2603.11393, Section 3",Equation 10
+Irons et al. accuracy - full source document,0.857,proportion,"Irons et al. (2026), Table 3",Equation 10
+Irons et al. accuracy - top-three passages,0.831,proportion,"Irons et al. (2026), Table 3",Equation 10
+Irons et al. accuracy - AI-written explanation (recommends a decision),0.808,proportion,"Irons et al. (2026), Table 3",Equation 10
+Irons et al. acceptance - full source document,0.715,proportion,"Irons et al. (2026), Table 3",Equation 10
+Irons et al. acceptance - top-three passages,0.647,proportion,"Irons et al. (2026), Table 3",Equation 10
+Irons et al. acceptance - AI-written explanation,0.865,proportion,"Irons et al. (2026), Table 3",Equation 10
+Irons et al. time per judgement - full source document,45.8,seconds (correct responses),"Irons et al. (2026), Table 3",kappa via Equation 4
+Irons et al. time per judgement - top-three passages,33.0,seconds (correct responses),"Irons et al. (2026), Table 3",kappa via Equation 4
+Irons et al. time per judgement - AI-written explanation,25.4,seconds (correct responses),"Irons et al. (2026), Table 3",kappa via Equation 4
+Detection ceiling - professionals,0.706,proportion,"Dell'Acqua et al. (2023), outside-frontier task",Equations 11-12; Table 10
+Federally insured credit unions - total,4214,count,"NCUA Quarterly Credit Union Data Summary 2026 Q2",Table 12
+Credit unions under USD 100 million - count,2438,count,"NCUA 2026 Q2 data summary, p. 7",Table 12
+Credit unions under USD 100 million - assets,73.8,USD billion,"NCUA 2026 Q2 data summary, p. 7",Table 12
+Credit unions under USD 100 million - members,6.3,million,"NCUA 2026 Q2 data summary, p. 7",Table 12
+Credit unions over USD 500 million - count,748,count,"NCUA 2026 Q2 data summary, p. 7",Table 12
+Credit unions over USD 500 million - assets,2186.3,USD billion,"NCUA 2026 Q2 data summary, p. 7",Table 12
+Credit unions over USD 500 million - members,124.2,million,"NCUA 2026 Q2 data summary, p. 7",Table 12
+System members,146.1,million,"NCUA 2026 Q2 data summary",Table 12 (middle tier by subtraction)
+System assets,2500,USD billion,"NCUA press release, 14 September 2026 (USD 2.50 trillion)",Table 12 (middle tier by subtraction)
+Reviewed items per task class,1104,items,"Computed: 95% confidence; unaided error 5% +/-2 pts; assistant error 25% +/-4 pts; detection 50% +/-7 pts",Section 6.9 (assumption)
+Review time per item,10,minutes,"Assumption",Section 6.9
+Task classes measured,4,count,"Assumption (delegate, draft-and-verify, explore, restrict)",Section 6.9
+Reviewer loaded wage,0.8707,USD per minute,"BLS OEWS May 2025 loan officers median USD 36.57/h divided by ECEC wage share 0.700",Section 6.9

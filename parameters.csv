@@ -1,0 +1,15 @@
+symbol,description,low,high,source
+s,Share of unaided task time saved,0.13,0.4,Brynjolfsson et al. (15% throughput gain = 13% time); Dell'Acqua et al. (25.1%); Noy & Zhang (40%)
+T,"Unaided task time, minutes",20,30,Noy & Zhang (20- to 30-minute writing tasks)
+e,Probability that assistant output contains a material error,0.17,0.33,Magesh et al. (retrieval-grounded legal research tools)
+d_A,"Detection probability, unsupported quick review",0.172,0.318,"Kim et al. (accuracy when the LLM answer was incorrect, four display conditions)"
+d_B,"Detection probability, professionals on an analytic task",0.6,0.706,"Dell'Acqua et al. (share correct on the outside-frontier task, two AI conditions)"
+e_h,Unaided human error probability (scenario values),0.05,0.155,Upper value: Dell'Acqua et al. control group (84.5% correct); lower values are scenarios
+kappa,Detection hazard per minute of checking,0.19,0.27,Derived from Kim et al. (change in accuracy and time when sources were shown)
+d0,Detection with no deliberate checking,0.218,0.218,"Kim et al. (incorrect answer, no explanation, no sources)"
+w_teller,"Loaded labour cost per minute, tellers (USD)",,,BLS OEWS May 2025 median USD 20.63/h; BLS ECEC June 2026 wage share 70.0%
+w_clerk,"Loaded labour cost per minute, loan interviewers and clerks (USD)",,,BLS OEWS May 2025 median USD 23.97/h; ECEC as above
+w_officer,"Loaded labour cost per minute, loan officers (USD)",,,BLS OEWS May 2025 median USD 36.57/h; ECEC as above
+w[Tellers],computed loaded cost per minute (USD),0.4912,0.4912,OEWS median / 0.700 / 60
+w[Loan interviewers and clerks],computed loaded cost per minute (USD),0.5707,0.5707,OEWS median / 0.700 / 60
+w[Loan officers],computed loaded cost per minute (USD),0.8707,0.8707,OEWS median / 0.700 / 60
